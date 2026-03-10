@@ -12,7 +12,7 @@ Trade financial markets through natural language using the IG Trading Platform A
 
 ## Requirements
 
-- IG Trading account ([Demo](https://www.ig.com/uk/demo-account) or Live)
+- IG Trading account ([Demo](https://www.ig.com/au/demo-account) or Live)
 - Node.js 18+
 - Claude Desktop with MCP support
 

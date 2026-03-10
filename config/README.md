@@ -2,7 +2,7 @@
 
 ## 1. Get IG Credentials
 
-1. Create account at [IG](https://www.ig.com/uk/demo-account)
+1. Create account at [IG](https://www.ig.com/au/demo-account)
 2. Get API key from [IG Labs](https://labs.ig.com/)
 
 ## 2. Configure Claude Desktop

@@ -137,7 +137,7 @@ Common market identifiers (EPICs) for quick access:
 
 **Stocks** (search by company name or ticker)
 - US stocks: `{TICKER}.US` format
-- UK stocks: `{TICKER}.UK` format
+- AU stocks: `{TICKER}.AU` format
 
 ## Important Guidelines
 
