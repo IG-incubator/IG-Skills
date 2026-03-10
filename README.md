@@ -1,43 +1,33 @@
-# IG Trading Skill
+# IG Skills Hub
 
-Trade financial markets through natural language using the IG Trading Platform API.
+An open marketplace enabling AI agents to interact with financial markets through natural language using the IG Trading Platform API.
 
 ## Features
 
-- **Market Research** - Search markets, check prices, view sentiment
-- **Position Management** - View, close, and modify positions
-- **Order Execution** - Market, limit, and stop orders
-- **Account Management** - Balances, activity, transactions
-- **Portfolio Analysis** - Performance and risk metrics
+- Search markets, execute trades, track positions, monitor account activity
+- Supports stocks, forex, indices, and commodities
+- Works with Claude Desktop via MCP protocol
+- Compatible with DEMO and LIVE environments
 
-## Requirements
+## Skills
 
-- IG Trading account ([Demo](https://www.ig.com/au/demo-account) or Live)
-- Node.js 18+
-- Claude Desktop with MCP support
+Browse available skills in the [skills/](skills/) directory:
 
-## Setup
+| Skill | Description |
+|-------|-------------|
+| [ig/trading](skills/ig/trading/) | Trade financial markets through natural language |
 
-See [config/README.md](config/README.md) for MCP configuration instructions.
+## Contributing
 
-## Usage
+1. Fork and create a feature branch (`feature/<skill-name>`)
+2. Create a folder with `SKILL.md` and `LICENSE.md`
+3. Follow the existing skill format
+4. Submit a pull request
 
-```
-"What's the price of Tesla?"
-"Buy 1 share of Apple"
-"Show my open positions"
-"Add stop loss at $150 to Apple"
-```
+## Disclaimer
 
-See [examples/](examples/) for more scenarios.
-
-## Documentation
-
-- [SKILL.md](SKILL.md) - Full tool documentation
-- [config/](config/) - MCP setup guide
-- [CHANGELOG.md](CHANGELOG.md) - Version history
-- [CONTRIBUTING.md](CONTRIBUTING.md) - Contribution guidelines
+IG Skills Hub is provided "as is" without warranty. Trading involves risk. Users are solely responsible for their trading decisions. This does not constitute financial advice.
 
 ## License
 
-MIT - see [LICENSE](LICENSE)
+MIT
